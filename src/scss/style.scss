@@ -1,0 +1,49 @@
+/*NULL*/
+h1,h2,h3,p{margin: 0;}
+/*NULL*/
+
+.wrapper{
+    max-width: 670px;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    background-color: #46b1de;
+    margin-bottom: 15px;
+}
+.article{
+    background-color: olivedrab;
+}
+.article__title{
+    margin-bottom: 10px;
+}
+.article__title h2{
+    text-align: center;
+}
+.article__body{
+    border: 3px solid black;
+    padding: 5px;
+}
+.article__body h3{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.article__actions{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.article__actions button{
+    padding: 5px;
+    font-weight: bold;
+    background-color: rgb(240, 184, 44);
+    border: 0px;
+    border-radius: 3px;
+}
+.article__author{
+    padding: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
